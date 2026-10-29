@@ -43,6 +43,6 @@ FROM FacturacionPorProducto
 ORDER BY total_facturado DESC
 ;
 
---  El producto con id 1 es el que mayor facturación individual genera con un total de $3600.00.
+--  El producto con id 1 es el que mayor facturación individual genera con un total de $3600
 --  Todos los clientes que realizaron compras en el período ya habia realizado una venta anteriormente, ya que cada uno registra exactamente 2 pedidos.
 --  Los productos 1 y 3 se encuentran "Por encima" del promedio general de facturación por producto.
